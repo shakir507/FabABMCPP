@@ -1,0 +1,78 @@
+{
+  "infection_rate": {
+    "type": "float",
+    "min": 0.0035,
+    "max": 0.14,
+    "default": 0.07
+  },
+  "mortality_period": {
+    "type": "float",
+    "min": 4.0,
+    "max": 16.0,
+    "default": 8.0
+  },
+  "recovery_period": {
+    "type": "float",
+    "min": 4.0,
+    "max": 16.0,
+    "default": 8.0
+  },
+  "mild_recovery_period": {
+    "type": "float",
+    "min": 4.5,
+    "max": 12.5,
+    "default": 8.5
+  },
+  "incubation_period": {
+    "type": "float",
+    "min": 2.0,
+    "max": 6.0,
+    "default": 3.0
+  },
+  "period_to_hospitalisation": {
+    "type": "float",
+    "min": 8.0,
+    "max": 16.0,
+    "default": 12.0
+  },
+  "immunity_duration": {
+    "type": "float",
+    "min": 100.0,
+    "max": 300.0,
+    "default": 273.0
+  },
+  "population": {
+    "type": "float",
+    "min": 1000,
+    "max": 1000000,
+    "default": 12345
+  },
+  "pop_mu": {
+    "type": "float",
+    "min": 0.0,
+    "max": 90.0,
+    "default": 35.0
+  },
+  "pop_sigma": {
+    "type": "float",
+    "min": 0.0,
+    "max": 90.0,
+    "default": 10.0
+  },
+  "infection_rate_alpha": {
+    "type": "float",
+    "min": 0.0035,
+    "max": 0.2,
+    "default": 0.112
+  },
+  "infection_rate_beta": {
+    "type": "float",
+    "min": 0.0035,
+    "max": 0.2,
+    "default": 0.165
+  },
+  "out_file": {
+    "type": "string",
+    "default": "out.csv"
+  }
+}
