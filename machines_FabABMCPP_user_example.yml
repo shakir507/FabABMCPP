@@ -10,9 +10,9 @@ default:
     flags: ["--generic_outfile"]
     
     # default values are extracted from facs/run.py
-    location: "brent"
+    location: "Senegal"
     output_dir: "."
-    measures: "measures_uk"
+    measures: "measures_sen"
     data_dir: "covid_data"
     starting_infections: "500"
     start_date: "1/3/2020"
